@@ -10,7 +10,7 @@ authors = [
     { name="Team2556", email="team@example.com" }
 ]
 dependencies = [
-    "wpilib",
+    "wpilib", #really need?
     "robotpy"
 ]
 

@@ -62,9 +62,18 @@ This repository contains the code for our FRC robot using Python, PyRobot, and W
     └── venv/
 
 # Other resources
-- Download python: https://www.python.org/downloads/windows/
+- Download python (3.12.5): https://www.python.org/downloads/windows/
 - Python tutorial: https://docs.python.org/3.12/tutorial/index.html
 - More instructions from WPI: https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/python-setup.html
 
 # VS Code Extensions
-Refer to our main github readme or sync here....
+TODO: Refer to our main github readme or sync here....
+In the VS Code Extensions sidbar, these codes should help you find usefull extensions (well.. Git and Python are required)
+- github.vscode-pull-request-github
+- ms-python.python
+- github.copilot
+- github.copilot-chat
+- tamasfe.even-better-toml
+- ms-python.black-formatter
+- njpwerner.autodocstring
+- 
