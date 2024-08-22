@@ -1,5 +1,5 @@
 # RobotPython2024
- Fresh start ; created for the 2024 season; transition to python
+ Fresh start ; created for the 2025 season; transition to python
 
 
  # FRC Robot Project
@@ -12,37 +12,59 @@ This repository contains the code for our FRC robot using Python, PyRobot, and W
    ```sh
    git clone https://github.com/your-team/FRC-Robot-Project.git
    cd FRC-Robot-Project
-2. Create a vertual environment
+2. Create a vertual environment (from a terminal; in the repo directry on your pc)
+    ```sh
     python -m venv venv
 3. Activate the virtual environment:
-    On Windows: venv\Scripts\activate
-    On macOS/Linux: source venv/bin/activate
+    ```sh
+    On Windows: 
+    venv\Scripts\activate
+    On macOS/Linux: 
+    source venv/bin/activate
 4. Install the dependencies:
+    ```sh
     pip install . #the dot references your current directory
-5. Run the robot code:
+
+5. initialize robotpy
+    ```sh
+    py -3 -m robotpy init
+
+6. Create folders named 'src/subsytems' and 'tests'
+    ```sh
+    mkdir src/subsytems
+    mkdir tests
+
+7. move robot.py file created by initilization to 'src' folder
+    move robot2.py src\
+
+8. Run the robot code:
+    ```sh
     python src/robot.py
 
 # Repository Structure
-We plan to use the following structure.
-FRC-Robot-Project/
-├── src/
-│   ├── __init__.py
-│   ├── robot.py
-│   └── subsystems/
-│       ├── __init__.py
-│       └── example_subsystem.py
-├── tests/
-│   ├── __init__.py
-│   └── test_robot.py
-├── config/
-│   └── config.yaml
-├── .gitignore
-├── README.md
-├── pyproject.toml
-└── venv/
-
+- We plan to use the following structure.
+    ```sh
+    FRC-Robot-Project/
+    ├── src/
+    │   ├── ?maybe? __init__.py
+    │   ├── robot.py
+    │   └── subsystems/
+    │       ├── ?maybe? __init__.py
+    │       └── example_subsystem.py
+    ├── tests/
+    │   ├── __init__.py
+    │   └── test_robot.py
+    ├── ?maybe? config/
+    │   └── config.yaml
+    ├── .gitignore
+    ├── README.md
+    ├── pyproject.toml
+    └── venv/
 
 # Other resources
-Download python: https://www.python.org/downloads/windows/
-More instructions from WPI: https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/python-setup.html
+- Download python: https://www.python.org/downloads/windows/
+- Python tutorial: https://docs.python.org/3.12/tutorial/index.html
+- More instructions from WPI: https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/python-setup.html
 
+# VS Code Extensions
+Refer to our main github readme or sync here....
