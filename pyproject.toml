@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TEAM2556-2025-REEFScape"
+version = "0.1.0"
+description = "FRC Robot Project using Python, PyRobot, and WPILib"
+authors = [
+    { name="Your Team", email="team@example.com" }
+]
+dependencies = [
+    "wpilib",
+    "pyrobot"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
