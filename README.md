@@ -40,3 +40,9 @@ FRC-Robot-Project/
 ├── README.md
 ├── pyproject.toml
 └── venv/
+
+
+# Other resources
+Download python: https://www.python.org/downloads/windows/
+More instructions from WPI: https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/python-setup.html
+
