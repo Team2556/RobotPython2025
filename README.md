@@ -21,24 +21,25 @@ This repository contains the code for our FRC robot using Python, PyRobot, and W
    ```sh
    git clone https://github.com/Team2556/RobotPython2025.git
    cd RobotPython2025
-<!-- 3. Activate the virtual environment:
+3. ??automatic for newcomer?? Activate the virtual environment:
     ```sh
     On Windows: 
     venv\Scripts\activate
     On macOS/Linux: 
     source venv/bin/activate
-4. Install the dependencies:
+4. ??automatic for newcomer?? Install the dependencies:
     ```sh
     pip install . #the dot references your current directory
+<!-- 
 
 5. initialize robotpy
     ```sh
-    py -3 -m robotpy init -->
 
  3. Create folders named 'subsytems' and 'tests'
     ```sh
     mkdir subsytems
     mkdir tests
+    py -3 -m robotpy init -->
 <!--
 
 7. move robot.py file created by initilization to 'src' folder
