@@ -8,6 +8,8 @@ This repository contains the code for our FRC robot using Python, PyRobot, and W
 
 ## Setup
 
+0. Create a python based profile in your VS Code: [optional profile file](RobotPy.code-profile)
+
 1. Make sure you have Python 3.12.5
     ```sh
     python --version
@@ -89,13 +91,12 @@ This repository contains the code for our FRC robot using Python, PyRobot, and W
 # VS Code Extensions
 TODO: Refer to our main github readme or sync here....
 In the VS Code Extensions sidbar, these codes should help you find usefull extensions (well.. Git and Python are required)
-- github.vscode-pull-request-github
 - ms-python.python
+- github.vscode-pull-request-github
 - github.copilot
-- github.copilot-chat
-- tamasfe.even-better-toml
 - ms-python.black-formatter
 - njpwerner.autodocstring
+- tamasfe.even-better-toml
 - 
 
 ## ORIGINAL Setup (FYI)
