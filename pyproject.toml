@@ -10,8 +10,8 @@ authors = [
     { name="Team2556", email="team@example.com" }
 ]
 dependencies = [
-    "wpilib", #really need?
-    "robotpy"
+    # "wpilib", #really need?
+    # "robotpy"
 ]
 
 [tool.pytest.ini_options]

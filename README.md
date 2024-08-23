@@ -33,15 +33,16 @@ This repository contains the code for our FRC robot using Python, PyRobot, and W
     ```sh
     py -3 -m robotpy init -->
 
-<!-- 6. Create folders named 'src/subsytems' and 'tests'
+ 3. Create folders named 'subsytems' and 'tests'
     ```sh
-    mkdir src/subsytems
+    mkdir subsytems
     mkdir tests
+<!--
 
 7. move robot.py file created by initilization to 'src' folder
     move robot2.py src\ -->
 
-3. Run the robot code:
+4. Run the robot code:
     ```sh
     python src/robot.py
 
@@ -50,27 +51,39 @@ This repository contains the code for our FRC robot using Python, PyRobot, and W
     <!-- ├── src/
     │   ├── ?maybe? __init__.py
     │   ├── robot.py
-    │   └── subsystems/
-    │       ├── ?maybe? __init__.py
-    │       └── example_subsystem.py 
     ├── ?maybe? config/
     │   └── config.yaml
     -->
     ```sh
     FRC-Robot-Project/
+    ├── robot.py
+    ├── subsystems/
+    │   ├── __init__.py
+    │   └── example_subsystem.py 
+    ├── commands/
+    │   ├── __init__.py
+    │   └── example_command.py 
+    ├── autonomous/
+    │   ├── __init__.py
+    │   └── example_command.py 
+    ├── pathplanner/deploy/pathplanner/
+    │   ├── autos
+    │   └── paths
     ├── tests/
     │   ├── __init__.py
     │   └── test_robot.py
     ├── .gitignore
     ├── README.md
     ├── pyproject.toml
-    ├── robot.py
     └── venv/
 
 # Other Resources
 - Download python (3.12.5): https://www.python.org/downloads/windows/
 - Python tutorial: https://docs.python.org/3.12/tutorial/index.html
 - More instructions from WPI: https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/python-setup.html
+- deploy Python to RoboRIO: https://docs.wpilib.org/en/stable/docs/software/python/subcommands/deploy.html
+- Command based programming: https://docs.wpilib.org/en/latest/docs/software/commandbased/what-is-command-based.html
+
 
 # VS Code Extensions
 TODO: Refer to our main github readme or sync here....
