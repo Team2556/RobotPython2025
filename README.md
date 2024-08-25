@@ -98,7 +98,7 @@ In the VS Code Extensions sidbar, these codes should help you find usefull exten
 - ms-python.black-formatter
 - njpwerner.autodocstring
 - tamasfe.even-better-toml
-- 
+- streetsidesoftware.code-spell-checker
 
 ## ORIGINAL Setup (FYI)
 
