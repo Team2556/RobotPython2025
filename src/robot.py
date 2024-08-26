@@ -24,13 +24,14 @@ import wpimath
 import wpilib.drive
 import wpimath.filter
 import wpimath.controller
-import subsystems.drivetrain as drivetrain
+import components.drivetrain as drivetrain
 from constants import Constants
+from autonomous.fakeauto import DriveForward
 
 class MyRobot(wpilib.TimedRobot):
     def robotInit(self) -> None:
         """Robot initialization function"""
-        self.controller = wpilib.XboxController(0)
+        self.controller = wpilib.PS4Controller(0)
         self.swerve = drivetrain.Drivetrain()
 
         # Slew rate limiters to make joystick inputs more gentle; 1/3 sec from 0 to 1.
@@ -39,6 +40,7 @@ class MyRobot(wpilib.TimedRobot):
         self.rotLimiter = wpimath.filter.SlewRateLimiter(3)
 
     def autonomousPeriodic(self) -> None:
+        DriveForward()
         self.driveWithJoystick(False)
         self.swerve.updateOdometry()
 

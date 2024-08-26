@@ -1,0 +1,9 @@
+{
+  "NetworkTables Info": {
+    "visible": true
+  },
+  "NetworkTables Settings": {
+    "listenAddress": "localhost",
+    "mode": "Server"
+  }
+}

@@ -70,6 +70,9 @@ class Drivetrain:
         :param fieldRelative: Whether the provided x and y speeds are relative to the field.
         :param periodSeconds: Time
         """
+        # debug
+        print("Drivetrain.drive() called")
+        # debug
         swerveModuleStates = self.kinematics.toSwerveModuleStates(
             wpimath.kinematics.ChassisSpeeds.discretize(
                 (
@@ -101,3 +104,7 @@ class Drivetrain:
                 self.backRight.getPosition(),
             ),
         )
+        # experiment -- added these odometry values to the SmartDashboard
+        wpilib.SmartDashboard.putNumber("Odometry X", self.odometry.getPose().translation().x())
+        wpilib.SmartDashboard.putNumber("Odometry Y", self.odometry.getPose().translation().y())
+        wpilib.SmartDashboard.putNumber("Odometry Heading", self.odometry.getPose().rotation().degrees())
