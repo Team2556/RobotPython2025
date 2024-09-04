@@ -43,6 +43,7 @@ robotpy_extras = [
 # Other pip packages to install
 requires = [
     'numpy',
+    'mypy',
     # 'pynetworktables',
     # 'pyfrc',
     # 'robotpy-hal-sim',
